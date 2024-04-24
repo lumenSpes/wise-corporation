@@ -18,7 +18,7 @@
 }
 
 .bg-first {
-    background-color: #3A0256;
+    background-color: #074173;
 }
 
 .social-links-top-right {
@@ -30,14 +30,18 @@
 }
 
 .nav-link:hover {
-    background-color: rgb(209, 58, 58);
+    background-color: #074173;
     color: #fff !important;
     transition: all 0.5s ease-in-out;
 }
 
 .nav-link {
-    color: #3A0256 !important;
+    color: #074173 !important;
     font-size: 18px !important;
+}
+
+.contact-btn{
+    background-color: #074173;
 }
 
 .hero-section{
@@ -64,7 +68,11 @@
 }
 
 .btn-stylish {
-    background-color: #E81F64;
+    background-color: #074173;
+}
+
+.btn-bg{
+    background-color: #074173;
 }
 
 /*--------------------------------------- 
@@ -81,12 +89,12 @@
 --------------------------------------- */
 
 .about-section {
-    background-color: #faefff;
+    background-color: #F6F5F2;
 }
 
 .about-heading {
     font-size: 40px;
-    color: #E81F64;
+    color: #074173;
 }
 
 .b-bottom {
@@ -111,13 +119,14 @@
 --------------------------------------- */
 
 .resources-section {
-    background-color: #f6e3FFFC;
+    background-color: #EEF5FF;
 }
 
 .resources-heading {
     font-size: 40px;
     font-weight: 700;
     line-height: 50px;
+    color: #074173;
 }
 
 .b-bottom-middle {
@@ -131,7 +140,7 @@
     font-size: 18px;
     font-weight: 500;
     line-height: 33px;
-    color: #3A0256;
+    color: #074173;
     text-align: center;
 }
 
@@ -145,11 +154,11 @@
 }
 
 .card {
-    background-color: #f6e3FFFC !important;
+    background-color: #EEF5FF !important;
 }
 
 .resource-link {
-    color: #3A0256;
+    color: #074173;
 }
 
 /*--------------------------------------- 
@@ -313,6 +322,13 @@ footer {
 }
 
 @media (max-width: 576px) {
+
+    .social-links-top-left{
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: center;
+        gap: 0rem !important;
+    }
 
     .hero-decription-text{
         font-size: 16px !important;

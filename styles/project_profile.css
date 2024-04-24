@@ -10,7 +10,7 @@
 -------------------------------*/
 
 .text-one{
-    font-size: 56px;
+    font-size: 50px;
 }
 
 .text-two{
@@ -30,6 +30,10 @@
     background-image: linear-gradient(to bottom, #000000, #461E59);
 }
 
+.description{
+    color: #00BD64;
+}
+
 .iframe-wrapper {
     width: 100%;
     position: relative;
@@ -44,13 +48,15 @@
     height: 100%;
     border-style: solid;
     border-width: 10px 10px 10px 10px;
-    border-color: #00BD64;
+    border-color: #fff;
     border-radius: 10px 10px 10px 10px;
 }
 
 .join-btn{
-    border: 1px solid white;
-    border-style: dashed;
+    /* border: 1px solid white;
+    border-style: dashed; */
+    background: #00BD64;
+    color: #fff;
     transition: transform 0.3s ease;
     z-index: 5;
 }

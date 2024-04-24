@@ -63,6 +63,10 @@
     right: 200px;
 }
 
+.heading-img-4{
+    width: auto;
+}
+
 .hero-decription-text{
     font-size: 24px !important;
 }
@@ -252,6 +256,10 @@ footer {
         font-size: 45px;
     }
 
+    .heading-img-4{
+        width: 70%;
+    }
+
     .custom-padding{
         padding-left: 2rem !important;
         padding-right: 2rem !important;
@@ -261,9 +269,9 @@ footer {
         font-size: 20px;
     }
 
-    .about-img-element {
+    /* .about-img-element {
         padding: 0.5rem;
-    }
+    } */
 
     /* .about-element-container{
         padding-bottom: 3rem;

@@ -75,8 +75,8 @@
                             অ্যাড্রেসটি দিন
                         </h4>
                         <form action="">
-                            <div class="row my-3 cart-content">
-                                <div class="col-12 col-md-6">
+                            <div class="row my-3 cart-content d-flex justify-content-between">
+                                <div class="col-12 col-md-5 cart-item">
                                     <h6 class="fw-bold">Billing Details</h6>
                                     <div class="mb-3">
                                         <label for="name" class="form-label">Name</label>
@@ -94,7 +94,7 @@
                                             placeholder="demo@gmail.com" required>
                                     </div>
                                 </div>
-                                <div class="col-12 col-md-6">
+                                <div class="col-12 col-md-5 cart-item">
                                     <h6 class="fw-bold">Your Order</h6>
                                     <table class="table table-hover">
                                         <thead>
@@ -126,17 +126,33 @@
                                         <a href="./refund_policy.html" class="text-decoration-none">Refund Policy</a>.
                                     </label>
                                 </div>
-                                <div class="d-flex justify-content-center my-3">
-                                    <!-- Submit button with icon inside -->
-                                    <button class="col-12 col-md-6 py-2 fs-5 fw-semibold border-0 rounded cart-btn"
-                                        type="submit">
-                                        Place Order
-                                        <i class="fa-solid fa-lock fs-6 px-1" style="color: #ffffff;"></i>
-                                    </button>
-
-                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center my-3">
+                                <!-- Submit button with icon inside -->
+                                <button class="col-12 col-md-6 py-2 fs-5 fw-semibold border-0 rounded cart-btn"
+                                    type="submit">
+                                    Place Order
+                                    <i class="fa-solid fa-lock fs-6 px-1" style="color: #ffffff;"></i>
+                                </button>
                             </div>
                         </form>
+                    </div>
+                </div>
+            </div>
+            <div class="mb-5">
+                <h4 class="text-center fw-bold bg-black text-white py-3 rounded">ম্যানুয়ালি অর্ডার করতে হোয়াটসঅ্যাপ অথবা ফেসবুকে মেসেজ দিন</h4>
+                <div class="row gap-2 mt-3">
+                    <div class="col-12 col-lg-3 col-md-4 border py-2 rounded fw-semibold buy-offline">
+                        <a href="#" class="text-decoration-none text-dark gap-3 d-flex align-items-center">
+                            <i aria-hidden="true" class="fab fa-whatsapp-square text-success fs-4"></i>
+                        <span>Chat on WhatsApp</span>
+                        </a>
+                    </div>
+                    <div class="col-12 col-lg-3 col-md-4 border py-2 rounded fw-semibold buy-offline">
+                        <a href="#" class="text-decoration-none text-dark gap-3 d-flex align-items-center">
+                            <i aria-hidden="true" class="fab fa-facebook text-primary fs-5"></i>
+                        <span>Chat on Facebook</span>
+                        </a>
                     </div>
                 </div>
             </div>

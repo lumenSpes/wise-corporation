@@ -43,10 +43,21 @@
     padding: 1.5rem;
 }
 
+.cart-item{
+    padding: 0rem 1.5rem;
+}
+
 .cart-btn{
     background-color: #074173;
     color: #fff;
 }
+
+/* contact */
+
+.buy-offline:hover{
+    border-color: black !important;
+}
+
 /* footer */
 
 footer {
@@ -94,6 +105,10 @@ footer {
 
     .social-links-top-right {
         justify-content: center;
+    }
+
+    .cart-content{
+        gap: 1.5rem;
     }
 }
 

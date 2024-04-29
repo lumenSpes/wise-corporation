@@ -1,6 +1,6 @@
-* {
-    padding: 0;
-    margin: 0;
+*, *::after, *::before{
+    padding: 0px;
+    margin: 0px;
     box-sizing: border-box;
     font-family: "Hind Siliguri", sans-serif;
 }
@@ -26,7 +26,7 @@
 }
 
 .bg-first {
-    background-color: #074173;
+    background-color: #01062E;
 }
 
 .social-links-top-right {
@@ -38,62 +38,58 @@
 }
 
 .nav-link:hover {
-    background-color: #074173;
+    background-color: #01062E;
     color: #fff !important;
     transition: all 0.5s ease-in-out;
 }
 
 .nav-link {
-    color: #074173 !important;
+    color: #01062E !important;
     font-size: 18px !important;
 }
 
 .contact-btn{
-    background-color: #074173;
+    background-color: #01062E;
 }
 
 /* .hero-section{
-    background-color: #8C52FF;
+    background-color: #F6F5F2;
 } */
-
-.heading-img-1 {
-    width: 80%;
-}
-
-.heading-img-2 {
-    width: 80%;
-}
-
-.heading-img-3 {
-    width: 100%;
-    position: relative;
-    bottom: 160px;
-    right: 200px;
-}
-
-.heading-img-4{
-    width: auto;
-}
 
 .hero-decription-text{
     font-size: 24px !important;
 }
 
 .btn-stylish {
-    background-color: #074173;
+    background-color: #01062E;
 }
 
 .btn-bg{
-    background-color: #074173;
+    background-color: #01062E;
 }
 
 /*--------------------------------------- 
 |            header section             |
 --------------------------------------- */
 
-.hero-dextription {
-    /* text-align: justify !important; */
-    font-size: 20px !important;
+.prevArrow{
+    color: #01062E;
+    /* padding: 0.5rem; */
+    position: absolute;
+    top: 40%;
+    left: -1.5rem;
+    z-index: 5;
+    font-size: 40px !important;
+}
+
+.nextArrow{
+    color: #01062E;
+    /* padding: 0.5rem; */
+    position: absolute;
+    top: 40%;
+    right: -1.5rem;
+    z-index: 5;
+    font-size: 40px !important;
 }
 
 /*--------------------------------------- 
@@ -106,7 +102,7 @@
 
 .about-heading {
     font-size: 40px;
-    color: #074173;
+    color: #01062E;
 }
 
 .b-bottom {
@@ -138,7 +134,7 @@
     font-size: 40px;
     font-weight: 700;
     line-height: 50px;
-    color: #074173;
+    color: #01062E;
 }
 
 .b-bottom-middle {
@@ -152,7 +148,7 @@
     font-size: 18px;
     font-weight: 500;
     line-height: 33px;
-    color: #074173;
+    color: #01062E;
     text-align: center;
 }
 
@@ -168,6 +164,12 @@
 .card {
     background-color: #EEF5FF !important;
 }
+
+/* .card-img-top{
+    height: 50%;
+    width: 100%;
+    margin-top: 5px;
+} */
 
 .resource-link {
     color: #074173;

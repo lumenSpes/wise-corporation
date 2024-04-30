@@ -14,7 +14,7 @@
 }
 
 .text-two{
-    font-size: 24px !important;
+    font-size: 20px !important;
     text-align: center !important;
 }
 
@@ -153,6 +153,10 @@
     background-color: #FFFFFF;
 }
 
+.pp-list-img{
+    margin: 2.5rem 0;
+}
+
 .faq{
     background-color: #000000;
 }
@@ -167,6 +171,15 @@
 
 .accordion-button:not(.collapsed)::after{
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'%3e%3c!--!Font Awesome Free 6.5.2 by %40fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons%2c Inc.--%3e%3cpath fill='white' d='M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z'/%3e%3c/svg%3e") !important;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #00ACE9 !important;
+}
+
+.accordion-button {
+    box-shadow: none !important;
+    border-bottom: 1px solid #fff !important;
 }
 
 /* footer */
@@ -224,6 +237,20 @@ footer {
         
     }
 
+    .pp-list-img{
+        margin: 1.5rem 0;
+    }
+
+    .pp-list-1{
+        margin-right: 1rem !important;
+    }
+    .pp-list-2{
+        margin: 0 3rem !important;
+    }
+    .pp-list-3{
+        margin-left: 1rem !important;
+    }
+
     .custom-padding{
         padding: 0rem 2rem !important;
     }
@@ -259,6 +286,10 @@ footer {
     .text-two{
         font-size: 18px !important;
         text-align: center !important;
+    }
+
+    .pp-list-img{
+        margin: 1rem 0;
     }
 
     .footer-logo {

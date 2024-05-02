@@ -14,7 +14,7 @@
 }
 
 .text-two{
-    font-size: 20px !important;
+    font-size: 18px !important;
     text-align: center !important;
 }
 
@@ -155,6 +155,39 @@
 
 .pp-list-img{
     margin: 2.5rem 0;
+}
+
+.serach-bg{
+    background-color: #01062E;
+}
+
+.icon-title{
+    background-color: #01062E;
+}
+
+.input-field-group{
+    position: relative;
+}
+
+.input-field{
+    width: 100%;
+    height: 50px;
+    outline: 0;
+    padding: 10px;
+    padding-left: 40px;
+    border-radius: 8px;
+    border: 2px solid #000;
+}
+
+.icon-container{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 60px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .faq{

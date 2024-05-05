@@ -14,7 +14,7 @@
 }
 
 .text-two{
-    font-size: 18px !important;
+    font-size: 20px !important;
     text-align: center !important;
 }
 
@@ -39,18 +39,18 @@
 }
 
 .nav-link:hover {
-    background-color: #074173;
+    background-color: #01062E;
     color: #fff !important;
     transition: all 0.5s ease-in-out;
 }
 
 .nav-link {
-    color: #074173 !important;
+    color: #01062E !important;
     font-size: 18px !important;
 }
 
 .contact-btn{
-    background-color: #074173;
+    background-color: #01062E;
 }
 
 .hero{
@@ -242,7 +242,7 @@
 }
 
 .resource-link {
-    color: #074173;
+    color: #01062E;
 }
 
 .five-step-img{
@@ -260,7 +260,13 @@ svg {
 .pricing-plan{
     border-radius: 16px;
     background-color: #fff;
-    box-shadow: 0 0 0 1px #e3e1de66, 0 1px 2px #5f4a2e14, 0 4px 6px #5f4a2e0a, 0 40px 40px -24px #684b2514, 0 56px 56px -32px #684b2514, 0 24px 40px #684b250a, 0 8px #70451a12 inset;
+    box-shadow: 0 0 0 1px #e3e1de66, 
+                0 1px 2px #5f4a2e14, 
+                0 4px 6px #5f4a2e0a, 
+                0 40px 40px -24px #684b2514, 
+                0 56px 56px -32px #684b2514, 
+                0 24px 40px #684b250a, 
+                0 8px #70451a12 inset;
     color: #37322f;
     isolation: isolate;
     overflow: hidden;
@@ -272,12 +278,17 @@ svg {
     padding: 32px 24px 23px;
 }
 
-.pricing-plan-label-plan, .pricing-plan-title {
+.pricing-plan-label-plan, 
+.pricing-plan-title {
     font-weight: 500;
 }
 
-.pricing-plan-label-plan, .pricing-plan-title, .pricing-plan-features-item, .pricing-plan-label, .pricing-plan-price-label {
-    font-size: 14px;
+.pricing-plan-label-plan, 
+.pricing-plan-title, 
+.pricing-plan-features-item, 
+.pricing-plan-label, 
+.pricing-plan-price-label {
+    font-size: 16px;
     line-height: 20px;
 }
 
@@ -288,6 +299,7 @@ svg {
     height: 24px;
     color: #000000;
     gap: 12px;
+    font-size: 18px;
     font-weight: 600;
 }
 
@@ -298,7 +310,9 @@ svg {
     gap: 4px;
     border-radius: 999px;
     background-color: rgb(33, 143, 33);
-    box-shadow: 0 1px 2px #e1654052, 0 3px 3px #e165401a, 0 1px #ffdb9e3d inset;
+    box-shadow: 0 1px 2px #e1654052, 
+                0 3px 3px #e165401a, 
+                0 1px #ffdb9e3d inset;
     color: #fbfaf9;
 }
 
@@ -329,7 +343,11 @@ svg {
 .button-primary {
     color: #fbfaf9;
     background-color: #01062E;
-    box-shadow: 0 1px 1px #2d20111f, 0 1.50259px 3px #2d201133, 0 4px 8px #2d201133, 0 12px 24px -6px #2d20114d, 0 -2px #000000bf inset;
+    box-shadow: 0 1px 1px #2d20111f, 
+                0 1.50259px 3px #2d201133, 
+                0 4px 8px #2d201133, 
+                0 12px 24px -6px #2d20114d, 
+                0 -2px #000000bf inset;
 }
 
 .button {
@@ -346,9 +364,12 @@ svg {
     cursor: pointer;
     position: relative;
     border-radius: 10px;
-    transition: background-color .45s cubic-bezier(.6,.6,0,1), box-shadow .45s cubic-bezier(.6,.6,0,1), transform .45s cubic-bezier(.6,.6,0,1), opacity .45s cubic-bezier(.6,.6,0,1);
+    transition: background-color .45s cubic-bezier(.6,.6,0,1), 
+                box-shadow .45s cubic-bezier(.6,.6,0,1), 
+                transform .45s cubic-bezier(.6,.6,0,1), 
+                opacity .45s cubic-bezier(.6,.6,0,1);
     font-weight: 500;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 20px;
 }
 
@@ -358,6 +379,8 @@ svg {
     margin: 0 24px;
     isolation: isolate;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
 }
 
 .pricing-plan-features {
@@ -369,7 +392,7 @@ svg {
 }
 
 .pricing-plan-features-item {
-    font-size: 16px;
+    font-size: 18px;
     margin-bottom: 16px;
     display: flex;
     flex-direction: row;
@@ -378,9 +401,8 @@ svg {
 }
 
 .pkg-icon {
-    font-size: 20px; /* Adjust the size as needed */
-    color: #000; /* Adjust the color as needed */
-    font-weight: 900; /* Increase the font weight to bold */
+    font-size: 16px; 
+    font-weight: 900;
 }
 
 .faq{
@@ -452,7 +474,7 @@ footer {
     }
 
     .nav-item .nav-link{
-        border-bottom: 2px solid #074173;
+        border-bottom: 2px solid #01062E;
     }
 
     #right-box {

@@ -14,19 +14,19 @@
 }
 
 .contact-btn {
-    background-color: #074173;
+    background-color: #01062E;
 }
 
 /* navbar */
 
 .nav-link:hover {
-    background-color: #074173;
+    background-color: #01062E;
     color: #fff !important;
     transition: all 0.5s ease-in-out;
 }
 
 .nav-link {
-    color: #074173 !important;
+    color: #01062E !important;
     font-size: 18px !important;
 }
 
@@ -80,11 +80,11 @@ footer {
     }
 
     .nav-item .nav-link {
-        border-bottom: 2px solid #074173;
+        border-bottom: 2px solid #01062E;
     }
 
     .nav-item .nav-link {
-        border-bottom: 2px solid #074173;
+        border-bottom: 2px solid #01062E;
     }
 
     .custom-padding {

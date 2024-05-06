@@ -24,7 +24,7 @@
 }
 
 .text-one{
-    font-size: 56px;
+    font-size: 48px;
 }
 
 .text-two{
@@ -53,7 +53,7 @@
 }
 
 .header-bg{
-    border-radius: 0% 0% 26% 79% / 0% 0% 12% 22%;
+    /* border-radius: 0% 0% 26% 79% / 0% 0% 12% 22%; */
     background-image: linear-gradient(to bottom, #000000, #461E59);
 }
 
@@ -133,6 +133,23 @@ footer {
     line-height: 25px;
 }
 
+
+/* services */
+.services{
+    background-color: #F6F5F2;
+}
+
+.description {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.button{
+    color: #fff;
+    background-color: #01062E;
+    font-weight: 600;
+}
+
 @media (max-width: 992px) {
     .contact-btn{
         display: none !important;
@@ -156,7 +173,7 @@ footer {
     }
 
     .custom-padding{
-        padding: 2rem !important;
+        padding: 0 2rem !important;
     }
 
     .custom-btn{

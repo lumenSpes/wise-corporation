@@ -95,6 +95,12 @@ h5 {
     visibility: hidden; 
 }
 
+label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .radio-btn + label::before {
     content: "";
     display: inline-block;
@@ -106,7 +112,7 @@ h5 {
 }
 
 .radio-btn:checked + label::before {
-    background-color: rgb(45, 90, 142); 
+    background-color: green; 
     border-color: white; 
     border: 3px solid #fff;
 }
@@ -200,6 +206,12 @@ footer {
 
     .category {
         gap: 2rem;
+    }
+
+    .empty-div{
+        height: 1rem !important;
+        width: 1rem;
+        /* background: red; */
     }
 }
 

@@ -213,6 +213,10 @@ footer {
         width: 1rem;
         /* background: red; */
     }
+
+    .pp__category__list{
+        margin-top: 1rem !important;
+    }
 }
 
 @media (max-width: 576px) {
@@ -235,5 +239,8 @@ footer {
 
     .footer-text {
         max-width: 70%;
+    }
+    .--breadcrumb{
+        display: none !important;
     }
 }
